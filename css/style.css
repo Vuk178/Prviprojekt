@@ -1,0 +1,35 @@
+.naslov {          /* selektor */
+  font-size: 2rem; /* deklaracija: svojstvo i vrijednost */
+  color: navy;
+}
+
+p { color: rgb(0, 0, 0); }           /* element selektor */
+.naslov { font-size: 2rem; } /* klasa — najčešći način */
+#logo { width: 120px; }      /* id — jedinstven element */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+main {
+  background-color: bisque;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align-last: center;
+}
+
+header {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: blanchedalmond;
+}
